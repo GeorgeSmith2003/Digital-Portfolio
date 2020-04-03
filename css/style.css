@@ -1,0 +1,80 @@
+/* Classes star with a full stop */
+/* ids start with a hashtag */
+/* Asterix captures everything that isnt styled
+Wildcard */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.NavBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    /* Target only ul and li */
+}
+
+.NavBar li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    /* Target only li and a */
+}
+
+.Container {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.Title {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.AboutMe {
+    width: 33.3%;
+    /* Takes up 1/3 of the screen */
+    text-align: left;
+}
+
+.AboutMe p {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.ImageContainer {
+    width: 15.3%;
+
+}
+
+.ImageContainer img {
+    width: 300px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Footer {
+   text-align: center;
+    background-color: yellowgreen;
+    color:black;
+    padding:20px 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
